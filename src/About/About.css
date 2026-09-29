@@ -24,6 +24,11 @@
   margin-top: 2.5vh;
   margin-bottom: 5vh;
   flex-wrap: wrap;
+
+  @media (max-width: 767px) {
+    column-gap: 10vw;
+    row-gap: 4vh;
+  }
 }
 
 .credit-cell {
@@ -34,12 +39,24 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+
+  @media (max-width: 767px) {
+    width: 35vw;
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 
 .credit-cell img {
   width: 30vh; /* Ensure the image covers the container's width */
   object-fit: cover;
   border-radius: 1vh;
+
+  @media (max-width: 767px) {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .credit-name {
@@ -64,4 +81,13 @@
   align-self: center;
   text-align: center;
   width: 70vw;
+}
+
+@media (max-width: 767px){
+  .special-thanks-first {
+    margin-bottom: 0;
+  }
+  .special-thanks-second {
+    margin-top: 4vh;
+  }
 }

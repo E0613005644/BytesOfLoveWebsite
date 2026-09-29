@@ -151,7 +151,7 @@ const About = () => {
       </div>
 
       <div className="credit-row-title">Special Thanks</div>
-      <div className="credit-row">
+      <div className="credit-row special-thanks-first">
         <a
           className="credit-cell"
           href="https://www.linkedin.com/in/mathewalangadan/"
@@ -179,7 +179,7 @@ const About = () => {
           <div className="credit-name">Mohammed Ali</div>
         </a>
       </div>
-      <div className="credit-row">
+      <div className="credit-row special-thanks-second">
         <a
           className="credit-cell"
           href="https://www.linkedin.com/in/josephcabezas/"
